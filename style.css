@@ -1,0 +1,70 @@
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 100%;
+}
+
+
+.dark_blue {
+    background-color: #0c097a;
+}
+
+.light_blue {
+    background-color: aqua;
+}
+.grenn {
+    background-color:green;
+}
+
+.orage {
+    background-color:#ff9f17;
+}
+
+
+.red {
+    background-color:red;
+}
+
+
+/* breackpoint 450px */
+
+@media screen and (min-width:450px) {
+
+    .light_blue, .grenn {
+        width: 50%;
+    }
+}
+
+/* breackpoint 550px */
+
+@media screen and (min-width:550px) {
+
+    .dark_blue, .light_blue {
+        width: 50%;
+    }
+
+    .red {
+        width: 33.333333%;
+    }
+
+    .orage {
+        width: 33.333333%;
+    }
+
+    .grenn {
+        width: 33.333333%;
+    }
+}
+
+@media screen and (min-width:550px) {
+    .container {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
